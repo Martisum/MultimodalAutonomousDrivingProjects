@@ -3,4 +3,5 @@
   <component name="Black">
     <option name="sdkName" value="street_gaussian" />
   </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="cv_proj" project-jdk-type="Python SDK" />
 </project>
