@@ -16,12 +16,12 @@
 （如果你熟练使用Git，可以直接用指令，而不用Github Desktop）
 ### 为了保证我们能够一起推进项目、方便合并与测试，我们需要事先约定一下简单的流程：
 ### 重点：标准工作流程：（假设你已经本地有了库）
-1、打开Github Desktop 点击上方的Fetch Origin从远程同步代码
-2、使用anaconda prompt中pip install --upgrade -r requirements.txt同步环境
-3、开始工作
-4、结束工作
-5、（如有）安装了包，则更新requirements.txt，标明版本（如果安装一个包a，还有依赖包a1 a2 a3，假如依赖是自动安装的，那就不需要标，因为我们装的时候也会自动安装依赖）
-6、打开Github Desktop，点击Change栏目，写下summary并点击下方蓝色commit按钮提交，最后点击Fetch Origin提交远程
++ 1、打开Github Desktop 点击上方的Fetch Origin从远程同步代码
++ 2、使用anaconda prompt中pip install --upgrade -r requirements.txt同步环境
++ 3、开始工作
++ 4、结束工作
++ 5、（如有）安装了包，则更新requirements.txt，标明版本（如果安装一个包a，还有依赖包a1 a2 a3，假如依赖是自动安装的，那就不需要标，因为我们装的时候也会自动安装依赖）
++ 6、打开Github Desktop，点击Change栏目，写下summary并点击下方蓝色commit按钮提交，最后点击Fetch Origin提交远程
 
 + 推荐本地安装一个vscode，方便解决代码冲突
 什么是代码冲突？你更改了文件a的某一行，但是另一个人删除了你修改的这一行，你们都提交了代码，那么后提交的人会出来一个冲突
